@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>
+        web server
+    </title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h3>Use this API to get weather !!</h3>
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
